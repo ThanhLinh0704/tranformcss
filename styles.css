@@ -8,6 +8,7 @@
 .container {
 	min-height: 100vh;
 	background-color:bisque;
+
 }
   
 .letters {
@@ -43,3 +44,13 @@
 	transform: rotateX(360deg);
 	transition: 1.5s;
   }
+
+.contain {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+}  
+.transparent-image {
+	max-width: 100%; /* Ensure the image scales */
+	height: auto;
+}
